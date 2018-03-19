@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+    <title>IT491</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+        <div id="myDropdown" class="dropdown-content">
+          <div class="dropdown">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Select Reel Nav
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Reel 1</a>
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                      <meta name="viewport" content="width=device-width, initial-scale=1">
+                      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                    <style>
+                    .dropdown-submenu {
+                        position: relative;
+                    }
+
+                    .dropdown-submenu .dropdown-menu {
+                        top: 0;
+                        left: 100%;
+                        margin-top: -1px;
+                    }
+                    </style>
+                    </head>
+                    <body>
+
+                    <div class="container">
+                      <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+                        <!-- <span class="caret"></span></button> -->
+                        <ul class="dropdown-menu">
+                          <li><a tabindex="-1" href="#">Year1</a></li>
+                          <li><a tabindex="-1" href="#">Year2</a></li>
+                          <li class="dropdown-submenu">
+                            <a class="test" tabindex="-1" href="#">More<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                              <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                              <!-- <li class="dropdown-submenu">
+                                <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">3rd level dropdown</a></li>
+                                  <li><a href="#">3rd level dropdown</a></li> -->
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <script>
+                    $(document).ready(function(){
+                      $('.dropdown-submenu a.test').on("click", function(e){
+                        $(this).next('ul').toggle();
+                        e.stopPropagation();
+                        e.preventDefault();
+                      });
+                    });
+                    </script>
+
+                    </body>
+                    </html>
+
+
+                </li>
+                  </div>
+                </div>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>Hyde Project</h1>
+                <p>Have all pictures here.</p>
+                <!-- First Photo Grid-->
+                <div class="w3-row-padding w3-padding-16 w3-center" id="">
+                  <div class="w3-quarter">
+                    <img src="" alt="Picture" style="width:100%">
+                    <h3>Photo1</h3>
+                    <p>Information</p>
+                  </div>
+
+                    <div class="w3-quarter">
+                      <img src="" alt="Picture" style="width:100%">
+                      <h3>Photo2</h3>
+                      <p>Information</p>
+                    </div>
+
+                      <div class="w3-quarter">
+                        <img src="" alt="Picture" style="width:100%">
+                        <h3>Photo3</h3>
+                        <p>Information</p>
+                      </div>
+
+                      <div class="w3-row-padding w3-padding-16 w3-center" id="">
+                        <div class="w3-quarter">
+                          <img src="" alt="Picture" style="width:100%">
+                          <h3>Photo4</h3>
+                          <p>Information</p>
+                        </div>
+
+                <!-- <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p> -->
+              <div id="page-content-wrapper">
+                  <div class="container-fluid">
+                 <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Select Reel</a>
+            </div>
+        </div>
+      </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
+    </script>
+
+</body>
+
+</html>
