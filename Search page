@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Search Page</title>
+    <meta charset = "UTF-8" />
+  </head>
+  <body>
+    <h1>Search Cases</h1>
+    <form>
+	<p>Search by Keyword(s):</p>  
+		<input id="myInput" type="text" placeholder="Keyword(s)">
+		<label>Filter by:</label>
+             <select id = "myList">
+               <option value = "Blank"></option>
+			   <option value = "CaseTitle">Case Title</option>
+               <option value = "CaseTranscription">Case Transcription</option>
+             </select>
+		<br><br>
+
+       <fieldset>
+          <legend>Additional Options</legend>
+          <p>
+             <label>Find Cases</label>
+             <select id = "myList">
+               <option value = "Any Year">Any Year</option>
+               <option value = "Year 1">Year 1</option>
+               <option value = "Year 2">Year 2</option>
+               <option value = "Year 3">Year 3</option>
+             </select>
+			 
+			  <select id = "Date">
+               <option value = "Any Year">and Newer</option>
+               <option value = "Year 1">and Older</option>
+              </select>
+          </p>
+       </fieldset>
+	   <fieldset>
+          <legend>Sort By:</legend>
+          <p>
+             <select id = "someList">
+               <option value = "CaseTranscription">Relevance</option>
+               <option value = "CaseTitle">Title</option>
+               <option value = "PersonName">Person Name</option>
+               <option value = "CaseDate">Date</option>
+             </select>
+
+          </p>
+       </fieldset>
+	   <br>
+	   <input type="submit" value="Search">
+    </form>
+  </body>
+</html>
